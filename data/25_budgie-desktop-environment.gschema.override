@@ -35,10 +35,10 @@ event-sounds=false
 
 [org.gnome.desktop.background:Budgie]
 show-desktop-icons=true
-picture-uri='file:///usr/share/backgrounds/budgie/budgie_default_wallpaper.jpg'
+picture-uri='file:///usr/share/backgrounds/budgie/default.jpg'
 
 [x.dm.slick-greeter]
-background='/usr/share/backgrounds/budgie/budgie_default_wallpaper.jpg'
+background='/usr/share/backgrounds/budgie/default.jpg'
 
 [org.gnome.desktop.input-sources:Budgie]
 xkb-options=['terminate:ctrl_alt_bksp']
@@ -48,7 +48,7 @@ xkb-options=['terminate:ctrl_alt_bksp']
 #exec-arg='-e'
 
 [org.gnome.desktop.screensaver:Budgie]
-picture-uri='file:///usr/share/backgrounds/budgie/budgie_default_wallpaper.jpg'
+picture-uri='file:///usr/share/backgrounds/budgie/default.jpg'
 
 [org.gtk.Settings.FileChooser:Budgie]
 sort-directories-first=true
