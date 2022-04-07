@@ -12,10 +12,7 @@ install_data(
    install_dir: join_paths(confdir, 'budgie-desktop'),
  )
 
-install_symlink(['defaults.list'],
-	pointing_to: join_paths(confdir, 'budgie-desktop'),
-	install_dir: join_paths(datadir, 'budgie-desktop', 'applications')
-)
+default_target_dir = join_paths(confdir, 'budgie-desktop')
 
 install_data(
    [

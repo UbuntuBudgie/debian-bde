@@ -2,57 +2,58 @@ Source: budgie-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 13), debhelper-compat (= 13)
+Build-Depends: debhelper (>= 13), debhelper-compat (= 13), meson
 Standards-Version: 4.6.0.1
-Homepage: https://github.com/UbuntuBudgie
-Vcs-Git: https://github.com/UbuntuBudgie/debian-bde -b debian
-Vcs-Browser: https://github.com/UbuntuBudgie/debian-bde/tree/debian
+Homepage: https://github.com/UbuntuBudgie/debian-bde
+Vcs-Git: https://github.com/UbuntuBudgie/debian-bde.git
+Vcs-Browser: https://github.com/UbuntuBudgie/debian-bde
+Rules-Requires-Root: no
 
 Package: budgie-desktop-environment
 Architecture: all
 Section: misc
 Depends:
- budgie-desktop (>= 10.6.1),
  budgie-control-center,
- pulseaudio,
- gsettings-desktop-schemas,
- gnome-menus,
+ budgie-desktop (>= 10.6.1),
  gnome-keyring,
- xdg-user-dirs-gtk,
+ gnome-menus,
+ gsettings-desktop-schemas,
  gstreamer1.0-alsa,
  gstreamer1.0-packagekit,
  network-manager-gnome,
+ pulseaudio,
+ xdg-user-dirs-gtk,
  ${misc:Depends},
 Recommends:
- pulseaudio-module-bluetooth,
- gvfs-fuse,
- dmz-cursor-theme,
- slick-greeter,
  arc-theme,
- papirus-icon-theme,
- gnome-backgrounds,
- nemo,
- gedit,
- libreoffice-writer,
- libreoffice-calc,
- firefox-esr,
- gnome-terminal,
- fonts-noto-color-emoji,
- fonts-noto-ui-core,
- fonts-noto-core,
- libfuse2,
- nano,
- mousetweaks,
- xdg-utils,
- libnotify-bin,
- im-config,
  avahi-autoipd,
- policykey-1-gnome,
- notification-daemon,
+ dmz-cursor-theme,
+ firefox-esr,
+ fonts-noto-color-emoji,
+ fonts-noto-core,
+ fonts-noto-ui-core,
+ gedit,
+ gnome-backgrounds,
+ gnome-bluetooth,
+ gnome-screenshot,
+ gnome-terminal,
+ gvfs-fuse,
+ im-config,
+ libfuse2,
+ libnotify-bin,
  libproxy1-plugin-gsettings,
  libproxy1-plugin-networkmanager,
- gnome-bluetooth,
- gnome-screenshot
+ libreoffice-calc,
+ libreoffice-writer,
+ mousetweaks,
+ nano,
+ nemo,
+ notification-daemon,
+ papirus-icon-theme,
+ policykey-1-gnome,
+ pulseaudio-module-bluetooth,
+ slick-greeter,
+ xdg-utils,
 Description: Desktop environment customisation for Debian
  Installs all Debian packages, both essential dependencies
  as well as recommended packages and applications.
@@ -61,4 +62,3 @@ Description: Desktop environment customisation for Debian
    gsettings overrides
    applies the default Gtk+ theme & icon-theme for GTK+
    applications
-
