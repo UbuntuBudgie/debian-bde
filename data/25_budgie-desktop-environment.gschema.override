@@ -2,7 +2,7 @@
 enable-week-numbers=true
 
 [com.solus-project.icon-tasklist]
-pinned-launchers=['firefox-esr', 'nemo.desktop', 'libreoffice-writer.desktop']
+pinned-launchers=['firefox-esr.desktop', 'nemo.desktop', 'libreoffice-writer.desktop']
 
 [org.gnome.desktop.wm.preferences]
 titlebar-font='Noto Sans Bold 11'
