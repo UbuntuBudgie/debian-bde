@@ -1,0 +1,70 @@
+Source: budgie-desktop-environment
+Section: x11
+Priority: optional
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Build-Depends: debhelper (>= 13), debhelper-compat (= 13)
+Standards-Version: 4.6.0.1
+Homepage: https://github.com/UbuntuBudgie
+Vcs-Git: https://github.com/UbuntuBudgie/debian-bde -b debian
+Vcs-Browser: https://github.com/UbuntuBudgie/debian-bde/tree/debian
+
+Package: budgie-desktop-environment
+Architecture: all
+Section: misc
+Depends:
+ budgie-desktop (>= 10.6.1),
+ gnome-themes-extra,
+ budgie-control-center,
+ pulseaudio,
+ gsettings-desktop-schemas,
+ gnome-menus,
+ gnome-keyring,
+ xdg-user-dirs,
+ xdg-user-dirs-gtk,
+ system-config-printer-common,
+ system-config-printer-udev,
+ gstreamer1.0-alsa,
+ gstreamer1.0-pulseaudio,
+ gstreamer1.0-packagekit,
+ network-manager,
+ network-manager-gnome,
+ ${misc:Depends},
+Recommends:
+ pulseaudio-module-bluetooth,
+ gvfs-fuse,
+ dmz-cursor-theme,
+ slick-greeter,
+ arc-theme,
+ papirus-icon-theme,
+ gnome-backgrounds,
+ nemo,
+ gedit,
+ libreoffice-writer,
+ libreoffice-calc,
+ firefox-esr,
+ gnome-terminal,
+ fonts-noto-color-emoji,
+ fonts-noto-ui-core,
+ fonts-noto-core,
+ libfuse2,
+ nano,
+ mousetweaks,
+ xdg-utils,
+ libnotify-bin
+ im-config,
+ avahi-autoipd,
+ policykey-1-gnome,
+ notification-daemon,
+ libproxy1-plugin-gsettings,
+ libproxy1-plugin-networkmanager,
+ gnome-bluetooth
+ 
+Description: Desktop environment customisation for Debian
+ Installs all Debian packages, both essential dependencies
+ as well as recommended packages and applications.
+ Installs:
+   Debian Budgie panel configuration
+   gsettings overrides
+   applies the default Gtk+ theme & icon-theme for GTK+
+   applications
+
