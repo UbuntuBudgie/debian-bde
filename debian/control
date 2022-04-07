@@ -19,7 +19,6 @@ Depends:
  gnome-menus,
  gsettings-desktop-schemas,
  gstreamer1.0-alsa,
- gstreamer1.0-packagekit,
  network-manager-gnome,
  pulseaudio,
  xdg-user-dirs-gtk,
@@ -54,6 +53,7 @@ Recommends:
  pulseaudio-module-bluetooth,
  slick-greeter,
  xdg-utils,
+ bash-completion
 Description: Desktop environment customisation for Debian
  Installs all Debian packages, both essential dependencies
  as well as recommended packages and applications.

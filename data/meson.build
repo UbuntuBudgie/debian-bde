@@ -21,3 +21,4 @@ install_data(
    install_dir: join_paths(datadir, 'glib-2.0', 'schemas'),
  )
 
+subdir('desktopfiles')
