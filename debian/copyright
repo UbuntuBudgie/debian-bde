@@ -1,13 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: budgie-desktop-environment
-Source: https://github.com/UbuntuBudgie/budgie-desktop-environment
+Source: https://github.com/UbuntuBudgie/debian-bde
 
 Files: *
-Copyright: Copyright 2016-2018 David Mohammed <fossfreedom@ubuntu.com>
-License: GPL-2+
-
-Files: keycontrol/bin/gnome-custom-keybinding-setup.py
-Copyright: 2018, Bernard Gray <bernard.gray@gmail.com>
+Copyright: Copyright 2022 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
 
 LICENSE: GPL-2+

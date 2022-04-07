@@ -13,20 +13,14 @@ Architecture: all
 Section: misc
 Depends:
  budgie-desktop (>= 10.6.1),
- gnome-themes-extra,
  budgie-control-center,
  pulseaudio,
  gsettings-desktop-schemas,
  gnome-menus,
  gnome-keyring,
- xdg-user-dirs,
  xdg-user-dirs-gtk,
- system-config-printer-common,
- system-config-printer-udev,
  gstreamer1.0-alsa,
- gstreamer1.0-pulseaudio,
  gstreamer1.0-packagekit,
- network-manager,
  network-manager-gnome,
  ${misc:Depends},
 Recommends:
@@ -50,7 +44,7 @@ Recommends:
  nano,
  mousetweaks,
  xdg-utils,
- libnotify-bin
+ libnotify-bin,
  im-config,
  avahi-autoipd,
  policykey-1-gnome,
@@ -59,7 +53,6 @@ Recommends:
  libproxy1-plugin-networkmanager,
  gnome-bluetooth,
  gnome-screenshot
- 
 Description: Desktop environment customisation for Debian
  Installs all Debian packages, both essential dependencies
  as well as recommended packages and applications.
