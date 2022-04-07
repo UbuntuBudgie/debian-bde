@@ -57,7 +57,8 @@ Recommends:
  notification-daemon,
  libproxy1-plugin-gsettings,
  libproxy1-plugin-networkmanager,
- gnome-bluetooth
+ gnome-bluetooth,
+ gnome-screenshot
  
 Description: Desktop environment customisation for Debian
  Installs all Debian packages, both essential dependencies
