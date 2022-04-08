@@ -18,11 +18,11 @@ icon-theme='Papirus'
 clock-show-date=false
 color-scheme='prefer-dark'
 
-[org.mate.desktop.interface]
-monospace-font-name='Monospace 11'
-font-name='Noto Sans 11'
-document-font-name='Noto Sans 11'
-icon-theme='Papirus'
+#[org.mate.desktop.interface]
+#monospace-font-name='Monospace 11'
+#font-name='Noto Sans 11'
+#document-font-name='Noto Sans 11'
+#icon-theme='Papirus'
 
 [org.gnome.desktop.peripherals.touchpad:Budgie]
 tap-to-click = true
@@ -50,9 +50,9 @@ background='/usr/share/backgrounds/budgie/default.jpg'
 [org.gnome.desktop.input-sources:Budgie]
 xkb-options=['terminate:ctrl_alt_bksp']
 
-[org.gnome.desktop.default-applications.terminal:Budgie]
-exec='mate-terminal'
-exec-arg='-e'
+#[org.gnome.desktop.default-applications.terminal:Budgie]
+#exec='mate-terminal'
+#exec-arg='-e'
 
 [org.gnome.desktop.screensaver:Budgie]
 picture-uri='file:///usr/share/backgrounds/budgie/default.jpg'
@@ -88,8 +88,11 @@ switch-to-workspace-left=['<Super>Page_Up', '<Control><Alt>Left']
 [com.solus-project.budgie-wm]
 desktop-type-override='budgie'
 
+[org.gnome.gedit.preferences.editor]
+highlight-current-line=false
+
 [org.buddiesofbudgie.budgie-desktop-view]
 show=true
 show-home-folder=false
 show-trash-folder=false
-terminal='mate-terminal'
+#terminal='mate-terminal'
