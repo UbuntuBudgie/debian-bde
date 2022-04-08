@@ -17,6 +17,12 @@ gtk-theme='Arc-Dark'
 icon-theme='Papirus'
 clock-show-date=false
 
+[org.mate.desktop.interface]
+monospace-font-name='Monospace 11'
+font-name='Noto Sans 11'
+document-font-name='Noto Sans 11'
+icon-theme='Papirus'
+
 [org.gnome.desktop.peripherals.touchpad:Budgie]
 tap-to-click = true
 
@@ -43,9 +49,9 @@ background='/usr/share/backgrounds/budgie/default.jpg'
 [org.gnome.desktop.input-sources:Budgie]
 xkb-options=['terminate:ctrl_alt_bksp']
 
-#[org.gnome.desktop.default-applications.terminal:Budgie]
-#exec='tilix'
-#exec-arg='-e'
+[org.gnome.desktop.default-applications.terminal:Budgie]
+exec='mate-terminal'
+exec-arg='-e'
 
 [org.gnome.desktop.screensaver:Budgie]
 picture-uri='file:///usr/share/backgrounds/budgie/default.jpg'
@@ -77,9 +83,6 @@ sleep-inactive-ac-type='nothing'
 [org.gnome.desktop.wm.keybindings]
 switch-to-workspace-right=['<Super>Page_Down', '<Control><Alt>Right']
 switch-to-workspace-left=['<Super>Page_Up', '<Control><Alt>Left']
-
-[org.gnome.gedit.preferences.editor]
-highlight-current-line=false
 
 [com.solus-project.budgie-wm]
 desktop-type-override='budgie'

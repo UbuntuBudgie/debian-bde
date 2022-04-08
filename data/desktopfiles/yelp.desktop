@@ -2,7 +2,7 @@
 Name=Help
 Comment=Get help with GNOME
 Keywords=documentation;information;manual;help;
-OnlyShowIn=GNOME;Unity;
+NoDisplay=true
 Exec=yelp %u
 Icon=help-browser
 StartupNotify=true
