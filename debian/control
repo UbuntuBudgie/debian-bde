@@ -19,26 +19,23 @@ Depends:
  gnome-menus,
  gsettings-desktop-schemas,
  gstreamer1.0-alsa,
+ libglib2.0-bin,
  network-manager-gnome,
  pulseaudio,
  xdg-user-dirs-gtk,
- libglib2.0-bin,
  ${misc:Depends},
 Recommends:
- budgie-desktop-view,
- ntpsec,
  arc-theme,
- avahi-autoipd,
+ bash-completion,
+ budgie-desktop-view,
  dmz-cursor-theme,
  firefox-esr,
  fonts-noto-color-emoji,
  fonts-noto-core,
  fonts-noto-ui-core,
- pluma,
  gnome-backgrounds,
  gnome-bluetooth,
  gnome-screenshot,
- mate-terminal,
  gvfs-fuse,
  im-config,
  libfuse2,
@@ -47,19 +44,26 @@ Recommends:
  libproxy1-plugin-networkmanager,
  libreoffice-calc,
  libreoffice-writer,
+ mate-terminal,
  mousetweaks,
  nano,
  nemo,
  notification-daemon,
  papirus-icon-theme,
+ pluma,
  policykey-1-gnome,
  pulseaudio-module-bluetooth,
+ reportbug,
  slick-greeter,
+ xdg-desktop-portal-gnome,
  xdg-utils,
- bash-completion
-Description: Desktop environment customisation for Debian
- Installs all Debian packages, both essential dependencies
- as well as recommended packages and applications.
+Description: Budgie Desktop environment customisation for Debian
+ Installs packages, both essential dependencies
+ as well as recommended packages to produce a useful and
+ integrated desktop.
+ The principles followed are to adhere to upstream budgie
+ recommendations coupled with ensuring a minimal but useful set
+ of Debian defaults.
  Installs:
    Debian Budgie panel configuration
    gsettings overrides

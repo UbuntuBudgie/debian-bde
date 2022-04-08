@@ -16,6 +16,7 @@ cursor-theme='DMZ-White'
 gtk-theme='Arc-Dark'
 icon-theme='Papirus'
 clock-show-date=false
+color-scheme='prefer-dark'
 
 [org.mate.desktop.interface]
 monospace-font-name='Monospace 11'
@@ -91,4 +92,4 @@ desktop-type-override='budgie'
 show=true
 show-home-folder=false
 show-trash-folder=false
-
+terminal='mate-terminal'
