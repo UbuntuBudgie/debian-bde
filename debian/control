@@ -14,8 +14,8 @@ Architecture: all
 Section: misc
 Depends:
  budgie-control-center,
- budgie-desktop (>= 10.6.1),
- firefox-esr | firefox | chromium | gnome-www-browser,
+ budgie-desktop,
+ firefox-esr | firefox | chromium | www-browser,
  gnome-keyring,
  gnome-menus,
  gsettings-desktop-schemas,
@@ -25,6 +25,8 @@ Depends:
  network-manager-gnome,
  pulseaudio,
  xdg-user-dirs-gtk,
+ lightdm | x-display-manager,
+ xserver-xorg,
  ${misc:Depends},
 Recommends:
  arc-theme,
