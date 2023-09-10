@@ -1,5 +1,5 @@
-budgie-desktop-environment (0.0.1) UNRELEASED; urgency=medium
+budgie-desktop-environment (0.0.1ubuntu1) UNRELEASED; urgency=medium
 
   * Initial release (Closes: #)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 07 Apr 2022 19:02:23 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 10 Sep 2023 19:35:29 +0100

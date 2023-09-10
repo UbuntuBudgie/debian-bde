@@ -3,7 +3,7 @@ Upstream-Name: budgie-desktop-environment
 Source: https://github.com/UbuntuBudgie/debian-bde
 
 Files: *
-Copyright: Copyright 2022 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: Copyright 2023 David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
 
 LICENSE: GPL-2+
