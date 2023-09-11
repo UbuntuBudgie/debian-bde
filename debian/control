@@ -61,7 +61,7 @@ Recommends:
  slick-greeter,
  xdg-desktop-portal-gtk,
  xdg-utils,
-Description: Budgie Desktop environment customisation for Debian
+Description: Budgie Desktop environment customization for Debian
  Installs packages, both essential dependencies
  as well as recommended packages to produce a useful and
  integrated desktop.

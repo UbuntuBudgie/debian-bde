@@ -1,9 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: budgie-desktop-environment
+Upstream-Name: debian-bde
+Upstream-Contact: David Mohammed <fossfreedom@ubuntu.com>
 Source: https://github.com/UbuntuBudgie/debian-bde
 
 Files: *
-Copyright: Copyright 2023 David Mohammed <fossfreedom@ubuntu.com>
+Copyright: 2023, Ubuntu Budgie Developers
 License: GPL-2+
 
 LICENSE: GPL-2+
