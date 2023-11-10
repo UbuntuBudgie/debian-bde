@@ -1,3 +1,13 @@
+budgie-desktop-environment (0.1.1-1) unstable; urgency=medium
+
+  * Source upload to allow migration to testing
+  * Remove unneeded meson post-install script
+  * Packaging Changes:
+    - remove unneeded debhelper B/D since we are using a versioned
+      debhelper-compat
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 10 Nov 2023 08:57:31 +0000
+
 budgie-desktop-environment (0.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #1051734)
