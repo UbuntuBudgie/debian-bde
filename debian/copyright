@@ -4,7 +4,7 @@ Upstream-Contact: David Mohammed <fossfreedom@ubuntu.com>
 Source: https://github.com/UbuntuBudgie/debian-bde
 
 Files: *
-Copyright: 2023, Ubuntu Budgie Developers
+Copyright: 2023-2024, Ubuntu Budgie Developers
 License: GPL-2+
 
 LICENSE: GPL-2+

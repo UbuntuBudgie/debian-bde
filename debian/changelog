@@ -1,3 +1,12 @@
+budgie-desktop-environment (0.1.1-2) unstable; urgency=medium
+
+  * Switch to prefer firefox rather than firefox-esr
+  * Packaging changes
+    - d/copyright Bump year
+    - d/control bump StandardsVersion; no additional changes required
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 10 Oct 2024 11:12:12 +0100
+
 budgie-desktop-environment (0.1.1-1) unstable; urgency=medium
 
   * Source upload to allow migration to testing
