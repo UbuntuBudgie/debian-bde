@@ -25,7 +25,6 @@ Depends:
  libglib2.0-bin,
  libpam-gnome-keyring,
  lightdm | x-display-manager,
- network-manager-gnome,
  pipewire-alsa,
  pipewire-pulse,
  ssh-askpass-gnome,
