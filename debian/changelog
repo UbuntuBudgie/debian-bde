@@ -1,3 +1,13 @@
+budgie-desktop-environment (0.1.1-4) unstable; urgency=medium
+
+  * d/control packaging changes:
+    - Switch from gnome-bluetooth to blueman (Closes: #1112019)
+    - Remove mousetweaks as a recommendation (Closes: #1121284)
+    - Remove obsolete libproxy plugins (Closes: #1121572)
+  * d/copyright replace obsolete fsf address
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 30 Nov 2025 10:57:09 +0000
+
 budgie-desktop-environment (0.1.1-3) unstable; urgency=medium
 
   * Drop depends on network-manager-gnome - networking is covered by
