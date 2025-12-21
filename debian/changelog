@@ -1,3 +1,11 @@
+budgie-desktop-environment (0.2.0-1) experimental; urgency=medium
+
+  * Tidy up overrides
+  * d/control remove notification-daemon that was pulling in cinnamon
+    d/control add xfce4-terminal as a recommendation for the terminal
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 21 Dec 2025 21:17:02 +0000
+
 budgie-desktop-environment (0.1.1-5) experimental; urgency=medium
 
   * Upload to experimental
