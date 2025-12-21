@@ -8,7 +8,7 @@ pinned-launchers=['firefox-esr.desktop', 'nemo.desktop', 'org.gnome.gedit.deskto
 titlebar-font='Noto Sans Bold 11'
 titlebar-uses-system-font=false
 
-[org.gnome.desktop.interface:Budgie]
+[org.gnome.desktop.interface]
 monospace-font-name='Noto Mono Bold 11'
 font-name='Noto Sans 11'
 document-font-name='Noto Sans 11'
@@ -18,20 +18,20 @@ icon-theme='Papirus'
 clock-show-date=false
 color-scheme='prefer-dark'
 
-[org.gnome.desktop.peripherals.touchpad:Budgie]
+[org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true
 
 [com.solus-project.budgie-menu]
 menu-headers=false
 
-[org.gnome.desktop.wm.preferences:Budgie]
+[org.gnome.desktop.wm.preferences]
 theme='Arc-Dark'
 num-workspaces=2
 
-[org.gnome.desktop.sound:Budgie]
+[org.gnome.desktop.sound]
 event-sounds=false
 
-[org.gnome.desktop.background:Budgie]
+[org.gnome.desktop.background]
 show-desktop-icons=true
 picture-uri='file:///usr/share/backgrounds/budgie/default.jpg'
 
@@ -41,22 +41,15 @@ icon-theme-name='Papirus'
 theme-name='Arc-Dark'
 cursor-theme-name='Bibata-Modern-Classic'
 
-[org.gnome.desktop.input-sources:Budgie]
+[org.gnome.desktop.input-sources]
 xkb-options=['terminate:ctrl_alt_bksp']
 
-[org.gnome.desktop.screensaver:Budgie]
-picture-uri='file:///usr/share/backgrounds/budgie/default.jpg'
-
-[org.gtk.Settings.FileChooser:Budgie]
+[org.gtk.Settings.FileChooser]
 sort-directories-first=true
-
-[org.gnome.mutter:Budgie]
-attach-modal-dialogs=false
-dynamic-workspaces=false
 
 [com.solus-project.budgie-panel]
 builtin-theme=false
-dark-theme=false
+dark-theme=true
 
 [com.solus-project.budgie-panel.panel]
 theme-regions=false
@@ -78,11 +71,7 @@ switch-to-workspace-left=['<Super>Page_Up', '<Control><Alt>Left']
 [com.solus-project.budgie-wm]
 desktop-type-override='budgie'
 
-[org.gnome.gedit.preferences.editor]
-highlight-current-line=false
-scheme='oblivion'
-
 [org.buddiesofbudgie.budgie-desktop-view]
 show=true
-show-home-folder=false
-show-trash-folder=false
+show-home-folder=true
+show-trash-folder=true
