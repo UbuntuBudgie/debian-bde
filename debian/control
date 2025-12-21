@@ -50,7 +50,7 @@ Recommends:
  libnotify-bin,
  nano,
  nemo,
- notification-daemon,
+ xfce4-terminal,
  papirus-icon-theme,
  pulseaudio-module-bluetooth,
  reportbug,
