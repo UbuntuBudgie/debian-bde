@@ -75,3 +75,6 @@ desktop-type-override='budgie'
 show=true
 show-home-folder=true
 show-trash-folder=true
+
+[org.gnome.gedit.preferences.ui]
+theme-variant='dark'
