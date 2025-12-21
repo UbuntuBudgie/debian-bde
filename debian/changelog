@@ -2,7 +2,10 @@ budgie-desktop-environment (0.2.0-1) experimental; urgency=medium
 
   * Tidy up overrides
   * d/control remove notification-daemon that was pulling in cinnamon
-    d/control add xfce4-terminal as a recommendation for the terminal
+    d/control replace gnome-terminal with xfce4-terminal
+    d/control remove unneeded xserver package dependencies
+    since gnome-terminal has a restriction to only display on the
+    GNOME desktop
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 21 Dec 2025 21:17:02 +0000
 
