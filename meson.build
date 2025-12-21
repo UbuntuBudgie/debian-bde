@@ -1,6 +1,6 @@
 project(
   'budgie-desktop-environment',
-  version: '0.1.1',
+  version: '0.2.0',
   license: 'GPLv2+',
   meson_version: '>= 0.61.0',
   default_options: ['prefix=/usr'],
