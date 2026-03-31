@@ -1,3 +1,9 @@
+budgie-desktop-environment (0.2.1-2) unstable; urgency=medium
+
+  * Upload to unstable now all budgie components have been assembled
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 31 Mar 2026 23:08:12 +0100
+
 budgie-desktop-environment (0.2.1-1) experimental; urgency=medium
 
   * Added labwc and command-not-found which ensures budgie wayland
